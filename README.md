@@ -4,7 +4,7 @@
 
 Basic React app that reminds the user about the number of people having birthday today.
 
-![Birthday Reminders App](https://i.postimg.cc/brR1txk8/birthday-reminders-app.png)
+![Birthday Reminders App](https://github.com/sudarshan-sh/BirthdayRemindersApp/blob/main/images/birthday-reminders-app.png)
 
 ## Functionality
 
