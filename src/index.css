@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f28ab2;
+  width: 100%;
+}
+.container{
+  margin: 5rem 0;
+  background: white;
+  /* min-height: 100vh; */
+  max-width: 450px;
+  width: 90vw;
+  text-align: inherit;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+.people_birthday{
+  margin: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+    margin-left: 4px;
+    margin-top: 1px;
+    letter-spacing: 0.1rem;
+}
+
+.article_person{
+  /* display: flex;
+  margin-left: 25px;
+  gap: 20px; */
+  align-items: center;
+  margin-bottom: 1.5rem;
+    grid-column-gap: 0.75rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.75rem;
+}
+
+.person_img{
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 5rem;
+}
+
+.person_name{
+  margin-bottom: -10px;
+    margin-top: 16px;
+    letter-spacing: 0.1rem;
+}
+
+.person_age{
+  color: #617d98;
+}
+
+.btn_clear{
+  width: 100%;
+  margin: 18px auto 17px auto;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: white;
+  color: #f28ab2;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.btn_clear:hover{
+  background: #f28ab2;
+  color: white;
+  transition: 0.5s;
+}
