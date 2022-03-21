@@ -4,6 +4,8 @@
 
 Basic React app that reminds the user about the number of people having birthday today.
 
+link - https://birthday-today.netlify.app/
+
 ![Birthday Reminders App](https://github.com/sudarshan-sh/BirthdayRemindersApp/blob/main/images/birthday-reminders-app.png)
 
 ## Functionality
